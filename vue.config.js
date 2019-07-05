@@ -1,3 +1,14 @@
 module.exports = {
-  lintOnSave: false
+  lintOnSave: false,
+  runtimeCompiler: true,
+
+  pluginOptions: {
+    quasar: {
+      treeShake: true
+    }
+  },
+
+  transpileDependencies: [
+    /[\\/]node_modules[\\/]quasar[\\/]/
+  ]
 }
