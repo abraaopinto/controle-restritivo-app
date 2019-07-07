@@ -11,7 +11,10 @@
           icon="menu"
         />
         <q-toolbar-title>
-          Sistema de Contole de Restritivos e Impeditivos
+          SIBRI
+          <span slot="subtitle">
+            Sistema de Inscrição e Baixa de Restritivos e Impeditivos.
+          </span>
         </q-toolbar-title>
       </q-toolbar>
       <q-tabs align="left">
@@ -38,7 +41,7 @@
         </q-item>
         <q-item to="/pessoa" exact>
           <q-item-section avatar>
-            <q-icon name="home" />
+            <q-icon name="far fa-edit" />
           </q-item-section>
           <q-item-section>
             <q-item-label>Cadastro de Pessoa</q-item-label>
@@ -58,11 +61,10 @@
       <router-view />
     </q-page-container>
     <q-footer elevated class="bg-grey-8 text-white">
-    <q-toolbar>
-      <div class="row items-center offset-md-3">
-        <div class="col-md-4">Desenvolvido por ...</div>
-        <div class="col-md-2 offset-md-4">Quasar v{{ $q.version }}</div>
-      </div>
+      <q-toolbar>
+        <q-icon name="fab fa-vuejs" title="Vue Js"/>
+        <q-icon name="fab fa-node-js" title="Node Js"/>
+        <q-icon name="fab fa-js-square" title="Js"/>
       </q-toolbar>
     </q-footer>
   </q-layout>

@@ -24,7 +24,9 @@ import {
   QTabs,
   QRouteTab,
   QFooter,
-  QForm
+  QForm,
+  QField,
+  QInput
 } from 'quasar'
 
 Vue.use(Quasar, {
@@ -46,10 +48,21 @@ Vue.use(Quasar, {
     QTabs,
     QRouteTab,
     QFooter,
-    QForm
+    QForm,
+    QField,
+    QInput
   },
   directives: {
   },
   plugins: {
+  },
+  extras: [
+    'material-icons',
+    'mdi',
+    'ionicons',
+    'fontawesome'
+  ],
+  framework: {
+    iconSet: 'fontawesome'
   }
  })
