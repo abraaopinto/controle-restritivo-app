@@ -16,6 +16,7 @@
       </q-toolbar>
       <q-tabs align="left">
         <q-route-tab to="/" label="Home" />
+        <q-route-tab to="/pessoa" label="Cadastro de Pessoa" />
         <q-route-tab to="/about" label="Sobre" />
       </q-tabs>
     </q-header>
@@ -33,6 +34,14 @@
           </q-item-section>
           <q-item-section>
             <q-item-label>Home</q-item-label>
+          </q-item-section>
+        </q-item>
+        <q-item to="/pessoa" exact>
+          <q-item-section avatar>
+            <q-icon name="home" />
+          </q-item-section>
+          <q-item-section>
+            <q-item-label>Cadastro de Pessoa</q-item-label>
           </q-item-section>
         </q-item>
         <q-item to="/about" exact>

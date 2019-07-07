@@ -23,7 +23,8 @@ import {
   QItemLabel,
   QTabs,
   QRouteTab,
-  QFooter
+  QFooter,
+  QForm
 } from 'quasar'
 
 Vue.use(Quasar, {
@@ -44,7 +45,8 @@ Vue.use(Quasar, {
     QItemLabel,
     QTabs,
     QRouteTab,
-    QFooter
+    QFooter,
+    QForm
   },
   directives: {
   },

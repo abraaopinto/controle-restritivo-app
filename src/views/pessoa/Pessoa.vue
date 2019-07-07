@@ -1,12 +1,13 @@
 <template>
   <q-page padding>
-    <p>Frontend - Sistema de Controle de Restritivos</p>
-    <p>Vue</p>
+    <p>Mante Pessoa</p>
+    <q-form
+    <p>...</p>
   </q-page>
 </template>
 
 <script>
 export default {
-  name: 'PageAbout'
+  name: 'Pessoa'
 }
 </script>
